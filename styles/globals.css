@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Super';
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+    font-named-instance: 'Regular';
+    src: url(/fonts/Super.woff2) format("woff2");
+}
+  
+h1,h2,h3,p {
+    color: #3B3156;
+}
+  
+a{
+    font-family: 'Super';
+}
+  
+#buttonTriangle{
+    border-width: 20px 0 0 10px;
+}
+  
+
+  
