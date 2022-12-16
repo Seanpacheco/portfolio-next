@@ -12,15 +12,18 @@
 }
   
 h1,h2,h3,p {
-    color: #3B3156;
+    color: #3B3F48;
 }
   
-a{
-    font-family: 'Super';
+a,#email-contact{
+    font-family: 'Super', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
   
 #buttonTriangle{
     border-width: 20px 0 0 10px;
+}
+#projectButtonTriangle{
+    border-width: 11px 0 0 5px;
 }
   
 
