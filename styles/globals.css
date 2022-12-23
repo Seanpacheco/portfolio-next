@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-* {-webkit-padding-start: 0px;}
+.logo,.logo-div {
+     -webkit-text-size-adjust: none;
+     }
 
 @font-face {
     font-family: 'Super';
