@@ -8,7 +8,7 @@ const Contact: FC = () => {
     }    
     return(
         <div className="bg-[#8E8B9E] mt-40 mb-36">
-            <h1 className="mb-20 text-5xl font-bold tracking-tight text-center">Contact Me</h1>
+            <h1 className="mb-20 text-5xl font-bold tracking-widest text-center">Contact Me</h1>
             <div className="py-8 lg:py-16 px-4 mx-4 md:mx-auto max-w-screen-md bg-[#B1B0C0] card">
                 <form onSubmit={handleSubmit} className="space-y-8">
                     <div>

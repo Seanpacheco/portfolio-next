@@ -38,7 +38,7 @@ const ProjectCard: FC = () => {
     <div className="hero mb-40 min-h-screen bg-[#8E8B9E]">
         <div className="flex flex-col gap-20 hero-content text-center">
             <div className="max-w-md">
-                <h1 className="text-5xl font-bold">Projects</h1>
+                <h1 className="text-5xl tracking-widest font-bold">Projects</h1>
             </div>   
                 <ul className='grid grid-cols-1 lg:grid-cols-2 gap-10'>
                     { projectList }

@@ -24,9 +24,12 @@
     font-display: swap;
 }
   
-h1,h2,h3,p {
+h1,h2,h3 {
     color: #3B3F48;
     font-family: 'Super', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p {
+    color: #3B3F48;  
 }
 .tv-bg{
     background-image: url('../public/images/super-bg.jpg');
