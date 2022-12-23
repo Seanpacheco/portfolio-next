@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .logo,.logo-div {
-     -webkit-text-size-adjust: none;
+    -webkit-padding-before: 1px
      }
 
 @font-face {
