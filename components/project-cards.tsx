@@ -20,8 +20,8 @@ const ProjectCard: FC = () => {
                 <li className="snesMenuBtn w-28 group active:animate-slide transition-none bg-[#4e309f] border-[6px] border-[#4e309f] rounded-md shadow-2xl">
                     <a target="_blank" className='snesMenuBtnInner flex group-active:animate-slide text-[#9c8ae0] transition-duration-0 transition-none shadow-inner shadow-[#4e309f] !rounded-full justify-center tracking-widest bg-gradient-to-b from-[#341f62] via-[#55379b] to-[#907acd]' href={project.demo}>Demo</a>
                 </li>
-                <li className="snesMenuBtn w-28 group active:animate-slide transition-none bg-[#4e309f] border-[6px] border-[#4e309f] rounded-md shadow-2xl">
-                    <a target="_blank" className='snesMenuBtnInner flex group-active:animate-slide text-[#9c8ae0] transition-duration-0 transition-none shadow-inner shadow-[#4e309f] !rounded-full justify-center tracking-widest bg-gradient-to-b from-[#341f62] via-[#55379b] to-[#907acd]' href={project.github}>Github<span id='projectButtonTriangle' className=' tracking-wide -skew-x-12 ml-1 mt-1.5 h-0 w-0 border-solid border-t-20 border-r-0 border-b-0 border-l-10 border-t-transparent border--r-transparent border-b-transparent border-l-[#9c8ae0]'></span></a>
+                <li className="snesMenuBtn w-28 group active:animate-[slide] transition-none bg-[#4e309f] border-[6px] border-[#4e309f] rounded-md shadow-2xl">
+                    <a target="_blank" className='snesMenuBtnInner flex group-active:animate-[slide] text-[#9c8ae0] transition-duration-0 transition-none shadow-inner shadow-[#4e309f] !rounded-full justify-center tracking-widest bg-gradient-to-b from-[#341f62] via-[#55379b] to-[#907acd]' href={project.github}>Github<span id='projectButtonTriangle' className=' tracking-wide -skew-x-12 ml-1 mt-1.5 h-0 w-0 border-solid border-t-20 border-r-0 border-b-0 border-l-10 border-t-transparent border--r-transparent border-b-transparent border-l-[#9c8ae0]'></span></a>
                 </li>
             </ul>
             <div className="card-actions">

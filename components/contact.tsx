@@ -4,7 +4,7 @@ import { useForm, ValidationError } from '@formspree/react';
 const Contact: FC = () => {
     const [state, handleSubmit] = useForm("mrgdndzl");
     if (state.succeeded) {
-        return <p>Thanks for joining!</p>;
+        return <h1>Thank you for contacting me, I'll get back to you as soon as I can.</h1>;
     }    
     return(
         <div className="bg-[#8E8B9E] mt-40 mb-36">
@@ -39,7 +39,9 @@ const Contact: FC = () => {
                         />
                     </div>
                     <div className='flex justify-end'>
-                    <button type="submit" disabled={state.submitting} className="end py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-[#3B3F48] sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
+                        <div className='group w-28 active:animate-[slide] transition-none bg-[#4e309f] border-[6px] border-[#4e309f] rounded-md shadow-2xl'>
+                            <button id='contact-btn' type="submit" disabled={state.submitting} className="end w-[6.2rem] flex group-active:animate-[slide] text-[#9c8ae0] transition-duration-0 transition-none shadow-inner shadow-[#4e309f] !rounded-full justify-center tracking-widest bg-gradient-to-b from-[#341f62] via-[#55379b] to-[#907acd]">Send message</button>
+                        </div>
                     </div>
                 </form>
             </div>
