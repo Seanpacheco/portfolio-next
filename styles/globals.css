@@ -14,15 +14,30 @@
     font-named-instance: 'Regular';
     src: url(/fonts/Super.woff2) format("woff2");
 }
+
+@font-face {
+    font-family: 'Pixel';
+    src: url('/fonts/Pixel.woff2') format('woff2'),
+        url('/fonts/Pixel.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
   
 h1,h2,h3,p {
     color: #3B3F48;
 }
-  
+.tv-bg{
+    background-image: url('../public/images/super-bg.jpg');
+    background-size: cover;
+}  
 a,#email-contact,#contact-btn{
     font-family: 'Super', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-  
+.hero-header {
+    font-family: 'Pixel';
+    color: blueviolet;
+}
 #buttonTriangle{
     border-width: 20px 0 0 10px;
 }
