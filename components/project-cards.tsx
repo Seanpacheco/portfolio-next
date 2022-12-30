@@ -1,4 +1,5 @@
 import React, {FC} from 'react'
+import Image from 'next/image'
 
 
 const projects = [
@@ -12,7 +13,7 @@ const ProjectCard: FC = () => {
     const projectList = projects.map(project =>
     <div key={project.id} className="card w-auto bg-[#B1B0C0] shadow-xl">
         <figure className="px-10 pt-10">
-            <img src={project.pic} alt="Shoes" className="rounded-xl" />
+            <Image src={project.pic} alt="Shoes" className="rounded-xl" />
         </figure>
         <div className="card-body items-center text-center">
             <h2 className="card-title text-3xl">{project.title}</h2>

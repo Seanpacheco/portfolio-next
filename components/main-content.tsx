@@ -44,7 +44,6 @@ const MainContent: FC = () => {
             <div className="w-full navbar z-10 fixed top-0 left-0 right-0 bg-[#B1B0C0] lg:hidden">
               <div className="flex-1">
                 <a href="/" className="flex items-center pl-2.5 justify-center">
-                    <img src="https://flowbite.com/docs/images/logo.svg" className="mr-3 h-6 sm:h-7" alt="Flowbite Logo" />
                   <div className='flex flex-col'>
                     <span className="self-center tracking-widest text-4xl font-semibold whitespace-nowrap text-[#797E88]">Sean Pacheco</span>
                     <div className='logo-div flex justify-center self-center bg-[#797E88]'><div className='logo px-2 text-center text-[#B1B0C0] text-sm tracking-widest'>Full-Stack Software Engineer</div></div>
