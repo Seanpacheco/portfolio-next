@@ -11,6 +11,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="keywords" content="web development, software engineering, web design" />
+        <meta name="description" content="Sean Pacheco's Software Engineering Portfolio" />
       </Head>
       <MainContent/>
     </div>
