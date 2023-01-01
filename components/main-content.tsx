@@ -13,15 +13,15 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 
 
 const menuLinks = [
-  { title: 'About', id: '1', key: 1, href: '#1'},
-  { title: 'Projects', id: '2', key: 3, href: '#2'},
-  { title: 'Contact', id: '3', key: 2, href: '#3'}   
+  { title: 'About', id: '1', key: 1, href: '#about'},
+  { title: 'Projects', id: '2', key: 3, href: '#projects'},
+  { title: 'Contact', id: '3', key: 2, href: '#contact'}   
 ]
 
 const sections = [
-  { child: <Hero/>, id: '1'},
-  { child: <ProjectCard/>, id: '2'},
-  { child: <Contact/>, id: '3'}
+  { child: <Hero/>, id: 'about'},
+  { child: <ProjectCard/>, id: 'projects'},
+  { child: <Contact/>, id: 'contact'}
 ]
 
 const MainContent: FC = () => {
