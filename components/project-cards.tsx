@@ -17,7 +17,7 @@ const projects = [
 
 const ProjectCard: FC = () => {
     const latestProjectList = latestProjects.map(project =>
-        <div key={project.id} className="card w-auto bg-[#B1B0C0] shadow-xl col-start-2 col-span-4">
+        <div key={project.id} className="card w-auto bg-[#B1B0C0] shadow-xl lg:col-start-2 col-span-4">
             <figure className="px-10 pt-10">
                 <Image src={project.pic} alt="Shoes" className="rounded-xl" />
             </figure>
