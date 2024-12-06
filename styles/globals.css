@@ -26,9 +26,8 @@
 }
 
 @font-face {
-  font-family: "Nexa";
-  src: url("/fonts/Nexa-Heavy.woff2") format("woff2"),
-    url("/fonts/Nexa-Heavy.woff") format("woff");
+  font-family: "Lato";
+  src: url("/fonts/Lato-Bold.ttf") format("ttf");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -43,7 +42,7 @@ h3 {
 }
 p {
   color: #3b3f48;
-  font-family: "Nexa";
+  font-family: "Lato";
 }
 .tv-bg {
   background-image: url("../public/images/super-bg.jpg");
