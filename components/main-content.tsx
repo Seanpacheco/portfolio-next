@@ -91,9 +91,11 @@ const MainContent: FC = () => {
                       <a target="_blank" className='flex text-[#4e309f] gap-2 px-0 py-1' href="https://www.linkedin.com/in/sean-michael-pacheco-ruiz/">
                         <FontAwesomeIcon className='w-8' icon={faLinkedin} /><span className='text-[#3B3F48] inline-block tracking-widest text-xl leading-9'>LinkedIn</span>
                       </a>
-                      <div id='email-contact' className='flex text-[#4e309f] gap-2 px-0 py-1'>
-                        <FontAwesomeIcon className='w-8' icon={faEnvelope} /><span className='text-[#3B3F48] inline-block tracking-wide text-xl leading-9'>Seanpacheco.dev<em>@</em>gmail.com</span>
-                      </div>
+                      <address id='email-contact' className='p-0 not-italic'>
+                        <a target="_blank" className='flex text-[#4e309f] gap-2 px-0 py-1' href="mailto:seanpacheco.dev@gmail.com">
+                          <FontAwesomeIcon className='w-8' icon={faEnvelope} /><span className='text-[#3B3F48] inline-block tracking-wide text-xl leading-9'>Seanpacheco.dev<em>@</em>gmail.com</span>
+                        </a>
+                      </address>
                   </li>
               </ul>
           </nav>     

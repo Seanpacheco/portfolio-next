@@ -3,15 +3,16 @@ import Image from 'next/image'
 import playrightPic from '../public/images/playright.jpeg'
 import showmePic from '../public/images/showme.png'
 import poolManagerPic from '../public/images/chem-log.png'
+import dineFlowPic from '../public/images/dineflow.png'
 
 
 const latestProjects = [
-    { title: 'Pool Manager', id: 1, tech:['TypeScript','React','Node.js','Express','Pg-promise','PostgreSQL','Mantine','JWT Auth','Auth0'], pic:poolManagerPic ,description:"Pool management app built using REACT and Mantine with CSS modules on the frontend with Auth0 authentication. On the backend I used NodeJS and Express with a PostgreSQL database.",demo:'https://pool-management-app.onrender.com',github:'https://github.com/Seanpacheco/pool-management-app'},]
+    {title: 'DineFlow', id: 1, tech:['TypeScript','React','Node.js','Express','Prisma','PostgreSQL','TailwindCSS', "Team-Project"], pic:dineFlowPic ,description:"A full-stack kitchen management system designed to streamline restaurant operations by integrating real-time inventory tracking, order management, menu engineering, and predictive analytics. The project utilized Node.js and Express for backend development, PostgreSQL with Prisma ORM for database management, and a React frontend styled with Tailwind CSS. Predictive analytics features were implemented using Python libraries such as NumPy and Pandas. The system also included RESTful APIs for seamless communication between components and ensured scalability and performance optimization.",demo:'https://legendary-fox-495ba2.netlify.app/',github:'https://github.com/allaboutmike/smart-kitchen-mgmt'},
+    ]
 
 const projects = [
-    { title: 'PlayRight', id: 4, tech:['Bootstrap','Ejs','Node.js','JavaScript','MongoDB','Mongoose','MVC'], pic:playrightPic ,description:"Full-stack webapp with authentication to search for suitable stageplays from the public domain, Teachers and stage directors can search for suitable plays depending on cast size and desired genre or by name. Users can save plays and role assignments on their account.",demo:'https://playright.onrender.com',github:'https://github.com/Seanpacheco/public-domain-app'},
-    { title: 'ShowMe', id: 5, tech:['Team-Project','Ejs','Node.js','JavaScript','MongoDB','MVC'], pic:showmePic ,description:'Fullstack Web App with authentication that makes an API call to allow users to search for thousands of shows and add them to their watchlist. They can view summaries of each show and update them when they are finished. They can also see a list of shows that are on for the current date.',demo:'https://showme.onrender.com',github:'https://github.com/Seanpacheco/ShowMe'},
-    
+    { title: 'Pool Manager', id: 2, tech:['TypeScript','React','Node.js','Express','Pg-promise','PostgreSQL','Mantine','JWT Auth','Auth0'], pic:poolManagerPic ,description:"Pool management app built using REACT and Mantine with CSS modules on the frontend with Auth0 authentication. On the backend I used NodeJS and Express with a PostgreSQL database.",demo:'https://pool-management-app.onrender.com',github:'https://github.com/Seanpacheco/pool-management-app'},
+    { title: 'PlayRight', id: 3, tech:['Bootstrap','Ejs','Node.js', 'Express','JavaScript','MongoDB','Mongoose','MVC'], pic:playrightPic ,description:"Full-stack webapp with authentication to search for suitable stageplays from the public domain, Teachers and stage directors can search for suitable plays depending on cast size and desired genre or by name. Users can save plays and role assignments on their account.",demo:'https://playright.onrender.com',github:'https://github.com/Seanpacheco/public-domain-app'},   
 ]
 // { title: 'Client Site', id: 6, tech:['React','TailwindCSS','Gatsby'], pic:'/images/client-site.png',description:'Static portfolio/business site built for a client using React and TailwindCSS with Gatsby.',demo:'string',github:'string'}
 
@@ -19,7 +20,7 @@ const ProjectCard: FC = () => {
     const latestProjectList = latestProjects.map(project =>
         <div key={project.id} className="card w-auto bg-[#B1B0C0] shadow-xl lg:col-start-2 col-span-4">
             <figure className="px-10 pt-10">
-                <Image src={project.pic} alt="Shoes" className="rounded-xl" />
+                <Image src={project.pic} alt="Project Screenshot" className="rounded-xl" />
             </figure>
             <div className="card-body items-center text-center">
                 <h2 className="card-title text-3xl">{project.title}</h2>
@@ -44,7 +45,7 @@ const ProjectCard: FC = () => {
     const projectList = projects.map(project =>
     <div key={project.id} className="card w-auto bg-[#B1B0C0] shadow-xl">
         <figure className="px-10 pt-10">
-            <Image src={project.pic} alt="Shoes" className="rounded-xl" />
+            <Image src={project.pic} alt="Project Screenshot" className="rounded-xl" />
         </figure>
         <div className="card-body items-center text-center">
             <h2 className="card-title text-3xl">{project.title}</h2>
