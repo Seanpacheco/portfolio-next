@@ -1,6 +1,6 @@
 import React, {FC} from 'react'
 import Image from 'next/image'
-import playrightPic from '../public/images/playright.jpeg'
+import playrightPic from '../public/images/playright.png'
 import showmePic from '../public/images/showme.png'
 import poolManagerPic from '../public/images/chem-log.png'
 import dineFlowPic from '../public/images/dineFlow.png'
