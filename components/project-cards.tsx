@@ -3,7 +3,7 @@ import Image from 'next/image'
 import playrightPic from '../public/images/playright.jpeg'
 import showmePic from '../public/images/showme.png'
 import poolManagerPic from '../public/images/chem-log.png'
-import dineFlowPic from '../public/images/dineflow.png'
+import dineFlowPic from '../public/images/dineFlow.png'
 
 
 const latestProjects = [
